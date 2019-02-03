@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4132227F201E6B53000BB57C /* DraggingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4132227E201E6B53000BB57C /* DraggingView.swift */; };
+		41614B8D220764C8001961DE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 41614B8C220764C8001961DE /* README.md */; };
 		41A6540A201CE10C00EEEF91 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A65409201CE10C00EEEF91 /* StringExtension.swift */; };
 		41A6540C201CF92F00EEEF91 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A6540B201CF92F00EEEF91 /* UIImageViewExtension.swift */; };
 		41A6540E201D1BD500EEEF91 /* SnakeUICollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A6540D201D1BD500EEEF91 /* SnakeUICollectionLayout.swift */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		079FF8978BABFA21B6605A25 /* Pods_MylivnTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MylivnTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4132227E201E6B53000BB57C /* DraggingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggingView.swift; sourceTree = "<group>"; };
+		41614B8C220764C8001961DE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		41A65409201CE10C00EEEF91 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		41A6540B201CF92F00EEEF91 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		41A6540D201D1BD500EEEF91 /* SnakeUICollectionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnakeUICollectionLayout.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		41AD7376201B642400989141 = {
 			isa = PBXGroup;
 			children = (
+				41614B8C220764C8001961DE /* README.md */,
 				41AD7381201B642400989141 /* Snakey List */,
 				41AD7380201B642400989141 /* Products */,
 				9E0756FBF86D999D1FC481F3 /* Frameworks */,
@@ -281,6 +284,7 @@
 			files = (
 				41AD738D201B642400989141 /* LaunchScreen.storyboard in Resources */,
 				41AD738A201B642400989141 /* Assets.xcassets in Resources */,
+				41614B8D220764C8001961DE /* README.md in Resources */,
 				41AD7388201B642400989141 /* Main.storyboard in Resources */,
 				41AD73BD201B666C00989141 /* ItemsList.json in Resources */,
 			);
