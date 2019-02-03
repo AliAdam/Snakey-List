@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="SplashViewController" id="BYZ-38-t0r" customClass="SplashViewController" customModule="MylivnTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SnakeyList" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qUr-vr-dY7">
+                                <rect key="frame" x="0.0" y="573" width="375" height="75"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="56"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SnakeyList" translatesAutoresizingMaskIntoConstraints="NO" id="nQo-Wf-djs">
+                                <rect key="frame" x="49" y="128" width="277" height="411"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="router" destination="n5J-J0-TGH" id="VGS-Cp-2L8"/>
+                        <outlet property="viewModel" destination="8TH-8n-3cE" id="6PC-X8-7sB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="8TH-8n-3cE" customClass="SplashViewModel" customModule="MylivnTask" customModuleProvider="target"/>
+                <customObject id="n5J-J0-TGH" customClass="SplashRouter" customModule="MylivnTask" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="86" y="-19"/>
+        </scene>
+        <!--Items Grid View Controller-->
+        <scene sceneID="0hQ-lt-W5r">
+            <objects>
+                <viewController storyboardIdentifier="ItemsGridViewController" id="GXa-O6-Ccq" customClass="ItemsGridViewController" customModule="MylivnTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J5X-si-y0s">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Re5-Ta-zQL">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <collectionViewLayout key="collectionViewLayout" id="92Z-Fw-Ltx" customClass="SnakeUICollectionLayout" customModule="MylivnTask" customModuleProvider="target"/>
+                                <cells>
+                                    <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ItemCell" id="Qlv-nG-3ZL" customClass="ItemCell" customModule="MylivnTask" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="160" height="160"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="aPM-oD-bSV">
+                                                    <rect key="frame" x="10" y="10" width="140" height="140"/>
+                                                </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUL-jl-oTb">
+                                                    <rect key="frame" x="11" y="11" width="139" height="139"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                                    <state key="normal">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="addBTNAction:" destination="Qlv-nG-3ZL" eventType="touchUpInside" id="gKl-F3-BIZ"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ph-2G-3ma">
+                                                    <rect key="frame" x="132" y="2" width="25" height="25"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" backgroundImage="deleteIMG"/>
+                                                    <connections>
+                                                        <action selector="deleteBTNAction:" destination="Qlv-nG-3ZL" eventType="touchUpInside" id="7Lb-ti-oVp"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="SUL-jl-oTb" firstAttribute="leading" secondItem="Qlv-nG-3ZL" secondAttribute="leading" constant="11" id="CrO-EJ-yDO"/>
+                                            <constraint firstAttribute="trailing" secondItem="aPM-oD-bSV" secondAttribute="trailing" constant="10" id="Iv6-UE-pLJ"/>
+                                            <constraint firstItem="SUL-jl-oTb" firstAttribute="top" secondItem="Qlv-nG-3ZL" secondAttribute="top" constant="11" id="Rvx-3s-XFE"/>
+                                            <constraint firstItem="aPM-oD-bSV" firstAttribute="top" secondItem="Qlv-nG-3ZL" secondAttribute="top" constant="10" id="V6O-Ec-gve"/>
+                                            <constraint firstAttribute="bottom" secondItem="aPM-oD-bSV" secondAttribute="bottom" constant="10" id="emB-WQ-auj"/>
+                                            <constraint firstAttribute="trailing" secondItem="SUL-jl-oTb" secondAttribute="trailing" constant="10" id="mOA-Vx-FcH"/>
+                                            <constraint firstItem="aPM-oD-bSV" firstAttribute="leading" secondItem="Qlv-nG-3ZL" secondAttribute="leading" constant="10" id="nnB-QH-Azr"/>
+                                            <constraint firstAttribute="bottom" secondItem="SUL-jl-oTb" secondAttribute="bottom" constant="10" id="xFN-BI-e0J"/>
+                                        </constraints>
+                                        <viewLayoutGuide key="safeArea" id="NFt-EI-jOI"/>
+                                        <size key="customSize" width="160" height="160"/>
+                                        <connections>
+                                            <outlet property="addBTN" destination="SUL-jl-oTb" id="a06-jR-RZQ"/>
+                                            <outlet property="deleteBTN" destination="1Ph-2G-3ma" id="XUV-QE-iz4"/>
+                                            <outlet property="imageView" destination="aPM-oD-bSV" id="5Jd-A2-CQY"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="GXa-O6-Ccq" id="sSr-aw-KcA"/>
+                                    <outlet property="delegate" destination="GXa-O6-Ccq" id="BXK-Vm-tKk"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Re5-Ta-zQL" firstAttribute="trailing" secondItem="8Pd-DM-XSB" secondAttribute="trailing" id="B4x-EI-jtu"/>
+                            <constraint firstItem="Re5-Ta-zQL" firstAttribute="bottom" secondItem="8Pd-DM-XSB" secondAttribute="bottom" id="Nw8-N4-ppZ"/>
+                            <constraint firstItem="Re5-Ta-zQL" firstAttribute="top" secondItem="8Pd-DM-XSB" secondAttribute="top" id="Tb9-mT-Kj8"/>
+                            <constraint firstItem="Re5-Ta-zQL" firstAttribute="leading" secondItem="8Pd-DM-XSB" secondAttribute="leading" id="yft-xV-Im4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8Pd-DM-XSB"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="Re5-Ta-zQL" id="cLc-YT-bBZ"/>
+                        <outlet property="router" destination="cxc-Zn-Rqs" id="wV8-zd-SSj"/>
+                        <outlet property="viewModel" destination="OVO-kc-7Nw" id="WnZ-2v-4zn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pzt-d1-hz2" sceneMemberID="firstResponder"/>
+                <customObject id="cxc-Zn-Rqs" customClass="ItemsGridRouter" customModule="MylivnTask" customModuleProvider="target"/>
+                <customObject id="OVO-kc-7Nw" customClass="ItemsGridViewModel" customModule="MylivnTask" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="724" y="-19.340329835082461"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SnakeyList" width="512" height="512"/>
+        <image name="deleteIMG" width="80" height="80"/>
+        <image name="placeholder" width="1024" height="768"/>
+    </resources>
+</document>

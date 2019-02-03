@@ -1,0 +1,48 @@
+{
+    "items": [
+              {
+              "uuid": "c35a6eb4-7178-45cc-bf1b-393922407621",
+              "imageUrlString": "http://dummyimage.com/250x250.png/1fa2dd/ffffff"
+              },
+              {
+              "uuid": "489523f2-f7b8-4b9d-b7bd-a4828f0d49a2",
+              "imageUrlString": "http://dummyimage.com/250x250.png/1f4444/ffffff"
+              },
+              {
+              "uuid": "ac37c63a-b1bf-4e6d-a0c2-2607260b35a3",
+              "imageUrlString": "http://dummyimage.com/250x250.png/1ddddd/000000"
+              },
+              {
+              "uuid": "49d7f92e-76b0-4a20-8a55-5b7d0c96707e",
+              "imageUrlString": "http://dummyimage.com/250x250.png/2fff44/ffffff"
+              },
+              {
+              "uuid": "85800a08-5f21-47e3-b887-34427fc605e4",
+              "imageUrlString": "http://dummyimage.com/250x250.png/cc0000/ffffff"
+              },
+              {
+              "uuid": "e5eb4240-3c7c-4dc6-a473-f7236b72cdc7",
+              "imageUrlString": "http://dummyimage.com/250x250.png/d1dd11/000000"
+              },
+              {
+              "uuid": "dd3c6af0-d1db-49b6-9559-56afdef883c4",
+              "imageUrlString": "http://dummyimage.com/250x250.png/1d1dd1/000000"
+              },
+              {
+              "uuid": "6b07bf03-7b36-4350-8b30-9f4ba92c2915",
+              "imageUrlString": "http://dummyimage.com/250x250.png/11dddd/000000"
+              },
+              {
+              "uuid": "e684a7d7-aee6-44ea-88c2-7cae63eeccc7",
+              "imageUrlString": "http://dummyimage.com/250x250.png/5fa2dd/ffffff"
+              },
+              {
+              "uuid": "14598dbf-8803-4fe4-b66c-d00675044020",
+              "imageUrlString": "http://dummyimage.com/250x250.png/ccffff/ffffff"
+              },
+              {
+              "uuid": "5198fa13-4a68-4efd-b15e-f1ee26f2c83f",
+              "imageUrlString": "http://dummyimage.com/250x250.png/ccff00/ffffff"
+              }
+              ]
+}
