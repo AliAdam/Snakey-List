@@ -2,6 +2,8 @@
 An Instgram like collection Layout support drag and drob 
 
 
+![ScreenShot](https://github.com/AliAdam/Snakey-List/blob/master/Snakey%20List/Assets.xcassets/SnakeyList.imageset/iTunesArtwork%401x.png)
+
 ![ScreenShot](https://github.com/AliAdam/Snakey-List/blob/master/screenshots/1.gif)
 
 ![ScreenShot](https://github.com/AliAdam/Snakey-List/blob/master/screenshots/2.gif)
