@@ -1,5 +1,5 @@
 # Snakey-List
-An Instgram like collection Layout support drag and drob 
+An Instgram like collection Layout support drag and drop 
 
 
 ![ScreenShot](https://github.com/AliAdam/Snakey-List/blob/master/Snakey%20List/Assets.xcassets/SnakeyList.imageset/iTunesArtwork%401x.png)
